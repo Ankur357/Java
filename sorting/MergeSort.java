@@ -8,8 +8,8 @@ public class MergeSort{
         }
         int mid = si + (ei-si)/2;
         divide(arr,si,mid);
-        divide(arr,mid+1;ei);
-        conquer(arr,si,mid,ei);
+        divide(arr,mid+1,ei);
+       // conquer(arr,si,mid,ei);
     }
     public static void main(String[] args) {
         int arr[] = {6,3,9,5,2,8};
